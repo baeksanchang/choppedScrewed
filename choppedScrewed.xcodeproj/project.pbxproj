@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E0B5A913D1298600699A70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E0B5A813D1298600699A70 /* UIKit.framework */; };
+		28E0B5AB13D1298600699A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E0B5AA13D1298600699A70 /* Foundation.framework */; };
+		28E0B5AD13D1298600699A70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E0B5AC13D1298600699A70 /* CoreGraphics.framework */; };
+		28E0B5B313D1298600699A70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28E0B5B113D1298600699A70 /* InfoPlist.strings */; };
+		28E0B5B613D1298600699A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5B513D1298600699A70 /* main.m */; };
+		28E0B5B913D1298600699A70 /* choppedScrewedAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5B813D1298600699A70 /* choppedScrewedAppDelegate.mm */; };
+		28E0B5BC13D1298600699A70 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E0B5BA13D1298600699A70 /* MainWindow.xib */; };
+		28E0B5BF13D1298600699A70 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5BE13D1298600699A70 /* MainViewController.m */; };
+		28E0B5C113D1298600699A70 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E0B5C013D1298600699A70 /* MainView.xib */; };
+		28E0B5C413D1298600699A70 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5C313D1298600699A70 /* FlipsideViewController.m */; };
+		28E0B5C613D1298600699A70 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E0B5C513D1298600699A70 /* FlipsideView.xib */; };
+		28E0B5CD13D129A300699A70 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E0B5CC13D129A300699A70 /* AudioToolbox.framework */; };
+		28E0B5D113D129C400699A70 /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5CF13D129C400699A70 /* mo_audio.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28E0B5A413D1298600699A70 /* choppedScrewed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = choppedScrewed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E0B5A813D1298600699A70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28E0B5AA13D1298600699A70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28E0B5AC13D1298600699A70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28E0B5B013D1298600699A70 /* choppedScrewed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "choppedScrewed-Info.plist"; sourceTree = "<group>"; };
+		28E0B5B213D1298600699A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28E0B5B413D1298600699A70 /* choppedScrewed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "choppedScrewed-Prefix.pch"; sourceTree = "<group>"; };
+		28E0B5B513D1298600699A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28E0B5B713D1298600699A70 /* choppedScrewedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = choppedScrewedAppDelegate.h; sourceTree = "<group>"; };
+		28E0B5B813D1298600699A70 /* choppedScrewedAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = choppedScrewedAppDelegate.mm; sourceTree = "<group>"; };
+		28E0B5BB13D1298600699A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28E0B5BD13D1298600699A70 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28E0B5BE13D1298600699A70 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		28E0B5C013D1298600699A70 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		28E0B5C213D1298600699A70 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		28E0B5C313D1298600699A70 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		28E0B5C513D1298600699A70 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		28E0B5CC13D129A300699A70 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		28E0B5CE13D129C400699A70 /* mo_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_audio.h; sourceTree = "<group>"; };
+		28E0B5CF13D129C400699A70 /* mo_audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_audio.mm; sourceTree = "<group>"; };
+		28E0B5D013D129C400699A70 /* mo_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_def.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E0B5A113D1298600699A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E0B5CD13D129A300699A70 /* AudioToolbox.framework in Frameworks */,
+				28E0B5A913D1298600699A70 /* UIKit.framework in Frameworks */,
+				28E0B5AB13D1298600699A70 /* Foundation.framework in Frameworks */,
+				28E0B5AD13D1298600699A70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E0B59913D1298600699A70 = {
+			isa = PBXGroup;
+			children = (
+				28E0B5AE13D1298600699A70 /* choppedScrewed */,
+				28E0B5A713D1298600699A70 /* Frameworks */,
+				28E0B5A513D1298600699A70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E0B5A513D1298600699A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E0B5A413D1298600699A70 /* choppedScrewed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E0B5A713D1298600699A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28E0B5CC13D129A300699A70 /* AudioToolbox.framework */,
+				28E0B5A813D1298600699A70 /* UIKit.framework */,
+				28E0B5AA13D1298600699A70 /* Foundation.framework */,
+				28E0B5AC13D1298600699A70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28E0B5AE13D1298600699A70 /* choppedScrewed */ = {
+			isa = PBXGroup;
+			children = (
+				28E0B5CE13D129C400699A70 /* mo_audio.h */,
+				28E0B5CF13D129C400699A70 /* mo_audio.mm */,
+				28E0B5D013D129C400699A70 /* mo_def.h */,
+				28E0B5B713D1298600699A70 /* choppedScrewedAppDelegate.h */,
+				28E0B5B813D1298600699A70 /* choppedScrewedAppDelegate.mm */,
+				28E0B5BA13D1298600699A70 /* MainWindow.xib */,
+				28E0B5BD13D1298600699A70 /* MainViewController.h */,
+				28E0B5BE13D1298600699A70 /* MainViewController.m */,
+				28E0B5C013D1298600699A70 /* MainView.xib */,
+				28E0B5C213D1298600699A70 /* FlipsideViewController.h */,
+				28E0B5C313D1298600699A70 /* FlipsideViewController.m */,
+				28E0B5C513D1298600699A70 /* FlipsideView.xib */,
+				28E0B5AF13D1298600699A70 /* Supporting Files */,
+			);
+			path = choppedScrewed;
+			sourceTree = "<group>";
+		};
+		28E0B5AF13D1298600699A70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E0B5B013D1298600699A70 /* choppedScrewed-Info.plist */,
+				28E0B5B113D1298600699A70 /* InfoPlist.strings */,
+				28E0B5B413D1298600699A70 /* choppedScrewed-Prefix.pch */,
+				28E0B5B513D1298600699A70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E0B5A313D1298600699A70 /* choppedScrewed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E0B5C913D1298600699A70 /* Build configuration list for PBXNativeTarget "choppedScrewed" */;
+			buildPhases = (
+				28E0B5A013D1298600699A70 /* Sources */,
+				28E0B5A113D1298600699A70 /* Frameworks */,
+				28E0B5A213D1298600699A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = choppedScrewed;
+			productName = choppedScrewed;
+			productReference = 28E0B5A413D1298600699A70 /* choppedScrewed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E0B59B13D1298600699A70 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 28E0B59E13D1298600699A70 /* Build configuration list for PBXProject "choppedScrewed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28E0B59913D1298600699A70;
+			productRefGroup = 28E0B5A513D1298600699A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E0B5A313D1298600699A70 /* choppedScrewed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E0B5A213D1298600699A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E0B5B313D1298600699A70 /* InfoPlist.strings in Resources */,
+				28E0B5BC13D1298600699A70 /* MainWindow.xib in Resources */,
+				28E0B5C113D1298600699A70 /* MainView.xib in Resources */,
+				28E0B5C613D1298600699A70 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E0B5A013D1298600699A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E0B5B613D1298600699A70 /* main.m in Sources */,
+				28E0B5B913D1298600699A70 /* choppedScrewedAppDelegate.mm in Sources */,
+				28E0B5BF13D1298600699A70 /* MainViewController.m in Sources */,
+				28E0B5C413D1298600699A70 /* FlipsideViewController.m in Sources */,
+				28E0B5D113D129C400699A70 /* mo_audio.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28E0B5B113D1298600699A70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E0B5B213D1298600699A70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28E0B5BA13D1298600699A70 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E0B5BB13D1298600699A70 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28E0B5C713D1298600699A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28E0B5C813D1298600699A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		28E0B5CA13D1298600699A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "choppedScrewed/choppedScrewed-Prefix.pch";
+				INFOPLIST_FILE = "choppedScrewed/choppedScrewed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28E0B5CB13D1298600699A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "choppedScrewed/choppedScrewed-Prefix.pch";
+				INFOPLIST_FILE = "choppedScrewed/choppedScrewed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E0B59E13D1298600699A70 /* Build configuration list for PBXProject "choppedScrewed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E0B5C713D1298600699A70 /* Debug */,
+				28E0B5C813D1298600699A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E0B5C913D1298600699A70 /* Build configuration list for PBXNativeTarget "choppedScrewed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E0B5CA13D1298600699A70 /* Debug */,
+				28E0B5CB13D1298600699A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E0B59B13D1298600699A70 /* Project object */;
+}
