@@ -1,69 +1,25 @@
 //
-//  YoooAppDelegate.m
-//  Yooo
+//  choppedScrewedAppDelegate.m
+//  choppedScrewed
 //
-//  Created by njb on 7/15/11.
+//  Created by Baek Chang on 9/9/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "choppedScrewedAppDelegate.h"
 
-#import "MainViewController.h"
+#import "choppedScrewedViewController.h"
 
-#import "mo_audio.h"
+@implementation choppedScrewedAppDelegate
 
-#define SRATE 44100
-#define FRAMESIZE 256
-#define NUM_CHANNELS 2
-
-
-bool g_play = true;
-double g_fc = 440.0; 
-// double amplitude = 0.0;
-
-// Implement audio callback here
-void audioCallback( Float32 * buffer, UInt32 framesize, void* userData)
-{
-	// NSLog(@"inside audioCB");
-	
-	if (g_play) {
-		static float phase = g_fc/SRATE;
-		// amplitude = amplitude+(1-amplitude)*0.001; // to avoid clicks
-        
-		for (int i=0; i<framesize; i++)	{
-			buffer[2*i] = buffer[2*i+1] = sin(2.0*M_PI*phase);    // amplitude*sin(2.0*M_PI*phase);
-			phase += g_fc/(SRATE*1.0);
-            
-			if (phase > 1.0f) 
-				phase -= 1.0f;
-		}
-	}
-	else {
-		for (int i=0; i<framesize; i++)	{
-			buffer[2*i] = buffer[2*i+1] = 0.0;
-		}
-	}
-    
-}
-
-
-@implementation YoooAppDelegate
-
-
-@synthesize window=_window;
-
-@synthesize mainViewController=_mainViewController;
+@synthesize window = _window;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    
-    MoAudio::init(SRATE, FRAMESIZE, NUM_CHANNELS);
-    MoAudio::start(audioCallback, NULL);
-    
     // Override point for customization after application launch.
-    // Add the main view controller's view to the window and display.
-    self.window.rootViewController = self.mainViewController;
+     
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -110,7 +66,7 @@ void audioCallback( Float32 * buffer, UInt32 framesize, void* userData)
 - (void)dealloc
 {
     [_window release];
-    [_mainViewController release];
+    [_viewController release];
     [super dealloc];
 }
 

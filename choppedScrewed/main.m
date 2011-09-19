@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Yooo
+//  choppedScrewed
 //
-//  Created by njb on 7/15/11.
+//  Created by Baek Chang on 9/9/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

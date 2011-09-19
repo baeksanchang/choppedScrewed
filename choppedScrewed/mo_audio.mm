@@ -84,6 +84,10 @@ void * MoAudio::m_bindle = NULL;
 bool setupRemoteIO( AudioUnit & inRemoteIOUnit, AURenderCallbackStruct inRenderProc,
                     AudioStreamBasicDescription & outFormat);
 
+void silenceData( AudioBufferList * inData );
+void convertToUser( AudioBufferList * inData, Float32 * buffy, 
+                   UInt32 numFrames, UInt32 & actualFrames );
+void convertFromUser( AudioBufferList * inData, Float32 * buffy, UInt32 numFrames );
 
 //-----------------------------------------------------------------------------
 // name: silenceData()
