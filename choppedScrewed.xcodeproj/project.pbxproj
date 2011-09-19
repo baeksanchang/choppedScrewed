@@ -7,129 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28E0B5A913D1298600699A70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E0B5A813D1298600699A70 /* UIKit.framework */; };
-		28E0B5AB13D1298600699A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E0B5AA13D1298600699A70 /* Foundation.framework */; };
-		28E0B5AD13D1298600699A70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E0B5AC13D1298600699A70 /* CoreGraphics.framework */; };
-		28E0B5B313D1298600699A70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28E0B5B113D1298600699A70 /* InfoPlist.strings */; };
-		28E0B5B613D1298600699A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5B513D1298600699A70 /* main.m */; };
-		28E0B5B913D1298600699A70 /* choppedScrewedAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5B813D1298600699A70 /* choppedScrewedAppDelegate.mm */; };
-		28E0B5BC13D1298600699A70 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E0B5BA13D1298600699A70 /* MainWindow.xib */; };
-		28E0B5BF13D1298600699A70 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5BE13D1298600699A70 /* MainViewController.m */; };
-		28E0B5C113D1298600699A70 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E0B5C013D1298600699A70 /* MainView.xib */; };
-		28E0B5C413D1298600699A70 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5C313D1298600699A70 /* FlipsideViewController.m */; };
-		28E0B5C613D1298600699A70 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E0B5C513D1298600699A70 /* FlipsideView.xib */; };
-		28E0B5CD13D129A300699A70 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E0B5CC13D129A300699A70 /* AudioToolbox.framework */; };
-		28E0B5D113D129C400699A70 /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28E0B5CF13D129C400699A70 /* mo_audio.mm */; };
+		5461B3AF141AAC9A00AA8F71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461B3AE141AAC9A00AA8F71 /* UIKit.framework */; };
+		5461B3B1141AAC9A00AA8F71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461B3B0141AAC9A00AA8F71 /* Foundation.framework */; };
+		5461B3B3141AAC9A00AA8F71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461B3B2141AAC9A00AA8F71 /* CoreGraphics.framework */; };
+		5461B3B9141AAC9A00AA8F71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5461B3B7141AAC9A00AA8F71 /* InfoPlist.strings */; };
+		5461B3BB141AAC9A00AA8F71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5461B3BA141AAC9A00AA8F71 /* main.m */; };
+		5461B3BF141AAC9A00AA8F71 /* choppedScrewedAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5461B3BE141AAC9A00AA8F71 /* choppedScrewedAppDelegate.mm */; };
+		5461B3C2141AAC9A00AA8F71 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5461B3C0141AAC9A00AA8F71 /* MainWindow.xib */; };
+		5461B3C5141AAC9A00AA8F71 /* choppedScrewedViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5461B3C4141AAC9A00AA8F71 /* choppedScrewedViewController.mm */; };
+		5461B3C8141AAC9A00AA8F71 /* choppedScrewedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5461B3C6141AAC9A00AA8F71 /* choppedScrewedViewController.xib */; };
+		5461B3D0141AACEC00AA8F71 /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5461B3CF141AACEC00AA8F71 /* mo_audio.mm */; };
+		5461B3D5141AAD1100AA8F71 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461B3D4141AAD1100AA8F71 /* AudioToolbox.framework */; };
+		547573981427EEE200EE53B2 /* InMemoryAudioFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 547573971427EEE200EE53B2 /* InMemoryAudioFile.mm */; };
+		5475739C1427EF6500EE53B2 /* funkBeats.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5475739A1427EF6500EE53B2 /* funkBeats.wav */; };
+		54BFC45D1427F4AD00EF0B77 /* amen-float.wav in Resources */ = {isa = PBXBuildFile; fileRef = 54BFC45C1427F4AD00EF0B77 /* amen-float.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28E0B5A413D1298600699A70 /* choppedScrewed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = choppedScrewed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28E0B5A813D1298600699A70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		28E0B5AA13D1298600699A70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		28E0B5AC13D1298600699A70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28E0B5B013D1298600699A70 /* choppedScrewed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "choppedScrewed-Info.plist"; sourceTree = "<group>"; };
-		28E0B5B213D1298600699A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		28E0B5B413D1298600699A70 /* choppedScrewed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "choppedScrewed-Prefix.pch"; sourceTree = "<group>"; };
-		28E0B5B513D1298600699A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28E0B5B713D1298600699A70 /* choppedScrewedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = choppedScrewedAppDelegate.h; sourceTree = "<group>"; };
-		28E0B5B813D1298600699A70 /* choppedScrewedAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = choppedScrewedAppDelegate.mm; sourceTree = "<group>"; };
-		28E0B5BB13D1298600699A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		28E0B5BD13D1298600699A70 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		28E0B5BE13D1298600699A70 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		28E0B5C013D1298600699A70 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		28E0B5C213D1298600699A70 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		28E0B5C313D1298600699A70 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
-		28E0B5C513D1298600699A70 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
-		28E0B5CC13D129A300699A70 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		28E0B5CE13D129C400699A70 /* mo_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_audio.h; sourceTree = "<group>"; };
-		28E0B5CF13D129C400699A70 /* mo_audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mo_audio.mm; sourceTree = "<group>"; };
-		28E0B5D013D129C400699A70 /* mo_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mo_def.h; sourceTree = "<group>"; };
+		5461B3AA141AAC9A00AA8F71 /* choppedScrewed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = choppedScrewed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5461B3AE141AAC9A00AA8F71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5461B3B0141AAC9A00AA8F71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5461B3B2141AAC9A00AA8F71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5461B3B6141AAC9A00AA8F71 /* choppedScrewed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "choppedScrewed-Info.plist"; sourceTree = "<group>"; };
+		5461B3B8141AAC9A00AA8F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5461B3BA141AAC9A00AA8F71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5461B3BC141AAC9A00AA8F71 /* choppedScrewed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "choppedScrewed-Prefix.pch"; sourceTree = "<group>"; };
+		5461B3BD141AAC9A00AA8F71 /* choppedScrewedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = choppedScrewedAppDelegate.h; sourceTree = "<group>"; };
+		5461B3BE141AAC9A00AA8F71 /* choppedScrewedAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = choppedScrewedAppDelegate.mm; sourceTree = "<group>"; };
+		5461B3C1141AAC9A00AA8F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5461B3C3141AAC9A00AA8F71 /* choppedScrewedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = choppedScrewedViewController.h; sourceTree = "<group>"; };
+		5461B3C4141AAC9A00AA8F71 /* choppedScrewedViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = choppedScrewedViewController.mm; sourceTree = "<group>"; };
+		5461B3C7141AAC9A00AA8F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/choppedScrewedViewController.xib; sourceTree = "<group>"; };
+		5461B3CE141AACEC00AA8F71 /* mo_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mo_audio.h; path = choppedScrewed/mo_audio.h; sourceTree = "<group>"; };
+		5461B3CF141AACEC00AA8F71 /* mo_audio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = mo_audio.mm; path = choppedScrewed/mo_audio.mm; sourceTree = "<group>"; };
+		5461B3D1141AACF100AA8F71 /* mo_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mo_def.h; path = choppedScrewed/mo_def.h; sourceTree = "<group>"; };
+		5461B3D4141AAD1100AA8F71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		547573961427EEE200EE53B2 /* InMemoryAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InMemoryAudioFile.h; path = choppedScrewed/InMemoryAudioFile.h; sourceTree = "<group>"; };
+		547573971427EEE200EE53B2 /* InMemoryAudioFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = InMemoryAudioFile.mm; path = choppedScrewed/InMemoryAudioFile.mm; sourceTree = "<group>"; };
+		5475739A1427EF6500EE53B2 /* funkBeats.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = funkBeats.wav; path = choppedScrewed/funkBeats.wav; sourceTree = "<group>"; };
+		54BFC45C1427F4AD00EF0B77 /* amen-float.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "amen-float.wav"; path = "choppedScrewed/amen-float.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28E0B5A113D1298600699A70 /* Frameworks */ = {
+		5461B3A7141AAC9A00AA8F71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E0B5CD13D129A300699A70 /* AudioToolbox.framework in Frameworks */,
-				28E0B5A913D1298600699A70 /* UIKit.framework in Frameworks */,
-				28E0B5AB13D1298600699A70 /* Foundation.framework in Frameworks */,
-				28E0B5AD13D1298600699A70 /* CoreGraphics.framework in Frameworks */,
+				5461B3D5141AAD1100AA8F71 /* AudioToolbox.framework in Frameworks */,
+				5461B3AF141AAC9A00AA8F71 /* UIKit.framework in Frameworks */,
+				5461B3B1141AAC9A00AA8F71 /* Foundation.framework in Frameworks */,
+				5461B3B3141AAC9A00AA8F71 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28E0B59913D1298600699A70 = {
+		5461B39F141AAC9A00AA8F71 = {
 			isa = PBXGroup;
 			children = (
-				28E0B5AE13D1298600699A70 /* choppedScrewed */,
-				28E0B5A713D1298600699A70 /* Frameworks */,
-				28E0B5A513D1298600699A70 /* Products */,
+				54CED8401427B539008682A6 /* Classes */,
+				5461B3D8141AAF6100AA8F71 /* Files */,
+				5461B3B4141AAC9A00AA8F71 /* choppedScrewed */,
+				5461B3AD141AAC9A00AA8F71 /* Frameworks */,
+				5461B3AB141AAC9A00AA8F71 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		28E0B5A513D1298600699A70 /* Products */ = {
+		5461B3AB141AAC9A00AA8F71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28E0B5A413D1298600699A70 /* choppedScrewed.app */,
+				5461B3AA141AAC9A00AA8F71 /* choppedScrewed.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28E0B5A713D1298600699A70 /* Frameworks */ = {
+		5461B3AD141AAC9A00AA8F71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28E0B5CC13D129A300699A70 /* AudioToolbox.framework */,
-				28E0B5A813D1298600699A70 /* UIKit.framework */,
-				28E0B5AA13D1298600699A70 /* Foundation.framework */,
-				28E0B5AC13D1298600699A70 /* CoreGraphics.framework */,
+				5461B3D4141AAD1100AA8F71 /* AudioToolbox.framework */,
+				5461B3AE141AAC9A00AA8F71 /* UIKit.framework */,
+				5461B3B0141AAC9A00AA8F71 /* Foundation.framework */,
+				5461B3B2141AAC9A00AA8F71 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		28E0B5AE13D1298600699A70 /* choppedScrewed */ = {
+		5461B3B4141AAC9A00AA8F71 /* choppedScrewed */ = {
 			isa = PBXGroup;
 			children = (
-				28E0B5CE13D129C400699A70 /* mo_audio.h */,
-				28E0B5CF13D129C400699A70 /* mo_audio.mm */,
-				28E0B5D013D129C400699A70 /* mo_def.h */,
-				28E0B5B713D1298600699A70 /* choppedScrewedAppDelegate.h */,
-				28E0B5B813D1298600699A70 /* choppedScrewedAppDelegate.mm */,
-				28E0B5BA13D1298600699A70 /* MainWindow.xib */,
-				28E0B5BD13D1298600699A70 /* MainViewController.h */,
-				28E0B5BE13D1298600699A70 /* MainViewController.m */,
-				28E0B5C013D1298600699A70 /* MainView.xib */,
-				28E0B5C213D1298600699A70 /* FlipsideViewController.h */,
-				28E0B5C313D1298600699A70 /* FlipsideViewController.m */,
-				28E0B5C513D1298600699A70 /* FlipsideView.xib */,
-				28E0B5AF13D1298600699A70 /* Supporting Files */,
+				5461B3BD141AAC9A00AA8F71 /* choppedScrewedAppDelegate.h */,
+				5461B3BE141AAC9A00AA8F71 /* choppedScrewedAppDelegate.mm */,
+				5461B3C0141AAC9A00AA8F71 /* MainWindow.xib */,
+				5461B3C3141AAC9A00AA8F71 /* choppedScrewedViewController.h */,
+				5461B3C4141AAC9A00AA8F71 /* choppedScrewedViewController.mm */,
+				5461B3C6141AAC9A00AA8F71 /* choppedScrewedViewController.xib */,
+				5461B3B5141AAC9A00AA8F71 /* Supporting Files */,
 			);
 			path = choppedScrewed;
 			sourceTree = "<group>";
 		};
-		28E0B5AF13D1298600699A70 /* Supporting Files */ = {
+		5461B3B5141AAC9A00AA8F71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				28E0B5B013D1298600699A70 /* choppedScrewed-Info.plist */,
-				28E0B5B113D1298600699A70 /* InfoPlist.strings */,
-				28E0B5B413D1298600699A70 /* choppedScrewed-Prefix.pch */,
-				28E0B5B513D1298600699A70 /* main.m */,
+				5461B3B6141AAC9A00AA8F71 /* choppedScrewed-Info.plist */,
+				5461B3B7141AAC9A00AA8F71 /* InfoPlist.strings */,
+				5461B3BA141AAC9A00AA8F71 /* main.m */,
+				5461B3BC141AAC9A00AA8F71 /* choppedScrewed-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5461B3D8141AAF6100AA8F71 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				54BFC45C1427F4AD00EF0B77 /* amen-float.wav */,
+				5475739A1427EF6500EE53B2 /* funkBeats.wav */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		5461B3DC141AAFA500AA8F71 /* MoMu */ = {
+			isa = PBXGroup;
+			children = (
+				5461B3CE141AACEC00AA8F71 /* mo_audio.h */,
+				5461B3CF141AACEC00AA8F71 /* mo_audio.mm */,
+				5461B3D1141AACF100AA8F71 /* mo_def.h */,
+			);
+			name = MoMu;
+			sourceTree = "<group>";
+		};
+		54CED8401427B539008682A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5461B3DC141AAFA500AA8F71 /* MoMu */,
+				547573961427EEE200EE53B2 /* InMemoryAudioFile.h */,
+				547573971427EEE200EE53B2 /* InMemoryAudioFile.mm */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28E0B5A313D1298600699A70 /* choppedScrewed */ = {
+		5461B3A9141AAC9A00AA8F71 /* choppedScrewed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28E0B5C913D1298600699A70 /* Build configuration list for PBXNativeTarget "choppedScrewed" */;
+			buildConfigurationList = 5461B3CB141AAC9A00AA8F71 /* Build configuration list for PBXNativeTarget "choppedScrewed" */;
 			buildPhases = (
-				28E0B5A013D1298600699A70 /* Sources */,
-				28E0B5A113D1298600699A70 /* Frameworks */,
-				28E0B5A213D1298600699A70 /* Resources */,
+				5461B3A6141AAC9A00AA8F71 /* Sources */,
+				5461B3A7141AAC9A00AA8F71 /* Frameworks */,
+				5461B3A8141AAC9A00AA8F71 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -137,90 +164,106 @@
 			);
 			name = choppedScrewed;
 			productName = choppedScrewed;
-			productReference = 28E0B5A413D1298600699A70 /* choppedScrewed.app */;
+			productReference = 5461B3AA141AAC9A00AA8F71 /* choppedScrewed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		28E0B59B13D1298600699A70 /* Project object */ = {
+		5461B3A1141AAC9A00AA8F71 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 28E0B59E13D1298600699A70 /* Build configuration list for PBXProject "choppedScrewed" */;
+			buildConfigurationList = 5461B3A4141AAC9A00AA8F71 /* Build configuration list for PBXProject "choppedScrewed" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 28E0B59913D1298600699A70;
-			productRefGroup = 28E0B5A513D1298600699A70 /* Products */;
+			mainGroup = 5461B39F141AAC9A00AA8F71;
+			productRefGroup = 5461B3AB141AAC9A00AA8F71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28E0B5A313D1298600699A70 /* choppedScrewed */,
+				5461B3A9141AAC9A00AA8F71 /* choppedScrewed */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28E0B5A213D1298600699A70 /* Resources */ = {
+		5461B3A8141AAC9A00AA8F71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E0B5B313D1298600699A70 /* InfoPlist.strings in Resources */,
-				28E0B5BC13D1298600699A70 /* MainWindow.xib in Resources */,
-				28E0B5C113D1298600699A70 /* MainView.xib in Resources */,
-				28E0B5C613D1298600699A70 /* FlipsideView.xib in Resources */,
+				5461B3B9141AAC9A00AA8F71 /* InfoPlist.strings in Resources */,
+				5461B3C2141AAC9A00AA8F71 /* MainWindow.xib in Resources */,
+				5461B3C8141AAC9A00AA8F71 /* choppedScrewedViewController.xib in Resources */,
+				5475739C1427EF6500EE53B2 /* funkBeats.wav in Resources */,
+				54BFC45D1427F4AD00EF0B77 /* amen-float.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28E0B5A013D1298600699A70 /* Sources */ = {
+		5461B3A6141AAC9A00AA8F71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E0B5B613D1298600699A70 /* main.m in Sources */,
-				28E0B5B913D1298600699A70 /* choppedScrewedAppDelegate.mm in Sources */,
-				28E0B5BF13D1298600699A70 /* MainViewController.m in Sources */,
-				28E0B5C413D1298600699A70 /* FlipsideViewController.m in Sources */,
-				28E0B5D113D129C400699A70 /* mo_audio.mm in Sources */,
+				5461B3BB141AAC9A00AA8F71 /* main.m in Sources */,
+				5461B3BF141AAC9A00AA8F71 /* choppedScrewedAppDelegate.mm in Sources */,
+				5461B3C5141AAC9A00AA8F71 /* choppedScrewedViewController.mm in Sources */,
+				5461B3D0141AACEC00AA8F71 /* mo_audio.mm in Sources */,
+				547573981427EEE200EE53B2 /* InMemoryAudioFile.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28E0B5B113D1298600699A70 /* InfoPlist.strings */ = {
+		5461B3B7141AAC9A00AA8F71 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28E0B5B213D1298600699A70 /* en */,
+				5461B3B8141AAC9A00AA8F71 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		28E0B5BA13D1298600699A70 /* MainWindow.xib */ = {
+		5461B3C0141AAC9A00AA8F71 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28E0B5BB13D1298600699A70 /* en */,
+				5461B3C1141AAC9A00AA8F71 /* en */,
 			);
 			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5461B3C6141AAC9A00AA8F71 /* choppedScrewedViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5461B3C7141AAC9A00AA8F71 /* en */,
+			);
+			name = choppedScrewedViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		28E0B5C713D1298600699A70 /* Debug */ = {
+		5461B3C9141AAC9A00AA8F71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -228,27 +271,28 @@
 			};
 			name = Debug;
 		};
-		28E0B5C813D1298600699A70 /* Release */ = {
+		5461B3CA141AAC9A00AA8F71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		28E0B5CA13D1298600699A70 /* Debug */ = {
+		5461B3CC141AAC9A00AA8F71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "choppedScrewed/choppedScrewed-Prefix.pch";
 				INFOPLIST_FILE = "choppedScrewed/choppedScrewed-Info.plist";
@@ -257,16 +301,13 @@
 			};
 			name = Debug;
 		};
-		28E0B5CB13D1298600699A70 /* Release */ = {
+		5461B3CD141AAC9A00AA8F71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "choppedScrewed/choppedScrewed-Prefix.pch";
 				INFOPLIST_FILE = "choppedScrewed/choppedScrewed-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -274,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28E0B59E13D1298600699A70 /* Build configuration list for PBXProject "choppedScrewed" */ = {
+		5461B3A4141AAC9A00AA8F71 /* Build configuration list for PBXProject "choppedScrewed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28E0B5C713D1298600699A70 /* Debug */,
-				28E0B5C813D1298600699A70 /* Release */,
+				5461B3C9141AAC9A00AA8F71 /* Debug */,
+				5461B3CA141AAC9A00AA8F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28E0B5C913D1298600699A70 /* Build configuration list for PBXNativeTarget "choppedScrewed" */ = {
+		5461B3CB141AAC9A00AA8F71 /* Build configuration list for PBXNativeTarget "choppedScrewed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28E0B5CA13D1298600699A70 /* Debug */,
-				28E0B5CB13D1298600699A70 /* Release */,
+				5461B3CC141AAC9A00AA8F71 /* Debug */,
+				5461B3CD141AAC9A00AA8F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 28E0B59B13D1298600699A70 /* Project object */;
+	rootObject = 5461B3A1141AAC9A00AA8F71 /* Project object */;
 }

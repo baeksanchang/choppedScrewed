@@ -50,7 +50,7 @@ void audioCallback( Float32 * buffer, UInt32 framesize, void* userData)
     MoAudio::init(SRATE, FRAMESIZE, NUM_CHANNELS);
 
     inMemoryAudioFile = new(InMemoryAudioFile);
-    inMemoryAudioFile->open([[NSBundle mainBundle] pathForResource:@"04-Eyesdown-float" ofType:@"wav"], FRAMESIZE);
+    inMemoryAudioFile->open([[NSBundle mainBundle] pathForResource:@"amen-float" ofType:@"wav"], FRAMESIZE);
     
     MoAudio::start(audioCallback, inMemoryAudioFile);
 }
